@@ -1,0 +1,32 @@
+@font-face{
+  font-family: Lintel;
+src: url('./Lintel-Regular.ttf')
+}
+
+
+body{
+  margin: 0 auto;
+   padding: 0;
+   font-family:Lintel;
+ }
+ 
+ img{
+ height: 500px;
+  display: block; 
+  width: 100%;
+   filter: brightness(0.4);
+   object-fit: cover;
+ }
+ 
+ #header-text{
+   font-size: 40px;
+    position: absolute;
+   top: 50%;
+   left: 40%;
+   color: white;
+ }
+ 
+ .container{
+   position: relative;
+ 
+ }
